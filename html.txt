@@ -1,0 +1,77 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+        <title>ACTIVITY 2</title>
+        <link rel="stylesheet" href="log in.html">
+<h1><b style="color: black">Sign up</h1>
+</head>
+<body>
+<style>
+
+body {
+
+ background-image: url("giphy.webp");
+ background-attachment: fixed;
+ background-size: 400px 670px;
+ background-repeat: no-repeat;
+ background-color: rgb(255, 0, 64);
+}
+</style>
+<form>
+	<table>
+		<tr>
+			<td> Email:	</td>
+			<td>
+				<input type=”mail”  placeholder=”Email” name=””>
+			</td>
+			</tr>
+<tr>
+<td> Create Password:</td>
+		<td><input type=”Password” placeholder=”Password” name=””>
+			</td>			
+		</tr>
+		<tr>
+		<td> Confirm Password:</td>
+		<td> <input type="Password" placeholder=”Password” name=””>
+		</tr>
+		
+	
+	</table>
+	<h2>Create</h2>
+	<table>	
+	<tr>
+	<td>First Name:</td><br>
+	<td> <input type="Name" placeholder= ”Name” name=””><br>
+	</td></tr>
+	<tr>
+	<td>Surname:</td>
+	<td> <input type="Surname" placeholder=”Surname” name””><br>
+	</td></tr>
+    <tr>
+    <td>Birthday:</td><br>
+	<td> <input type="date" placeholder=”date” name””><br>
+	</td></tr>
+	<tr>
+		<td>Age:</td>
+		<td> <input type="age" placeholder=”age” name””><br>
+		</td></tr>
+      
+	<td>Phone Number:</td>
+	<td> <input type="Phone Number" placeholder = ”PhoneNumber” Number””><br>
+	
+	
+	</b>
+	
+	</table>
+<input type="checkbox" name="Male" value="Male"> Male<br>
+ <input type="checkbox" name="Female" value="Female"> Female<br>
+<div class="container">
+ <button type="button" class="createbtn"><a href="Login.html" >Log in</button>
+ <button type="button" class="cancelbtn"><a href="Login.html" >Cancel</button>
+
+ </div>
+</form> 
+</body>
+</html>
+
